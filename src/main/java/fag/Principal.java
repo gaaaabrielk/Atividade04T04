@@ -9,7 +9,7 @@ public class Principal {
 		
 		System.out.println("=== ATIVIDADE JAVA BÁSICO - 10 QUESTÕES ===\n");
 		
-		// Executar todas as questões
+		//Executar todas as questões
 		questao1_Scanner(scan);
 		questao2_Print();
 		questao3_For();
@@ -188,20 +188,20 @@ public class Principal {
 	public static void questao9_WhileScanner(Scanner scan) {
 		System.out.println("=== QUESTÃO 9 - WHILE + SCANNER ===");
 		int num =0;;
-		int cont =0;
+		int contador =0;
 		while(num >= 0) {
 			System.out.println("Digite números (digite um número negativo para parar):");
 			 num = scan.nextInt();
 			 
 			 if(num >= 0) {
-				 cont++;
+				 contador++;
 			 }
 		
 			
 		}
 		
 		
-		System.out.println(cont);
+		System.out.println(contador);
 	}
 	
 	// ========================================
